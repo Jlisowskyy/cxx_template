@@ -7,10 +7,4 @@ PACKAGES=(
   "base-devel"
   "cppcheck"
   "jq"
-
-  # for glfw wayland
-  "wayland"
-
-  # for glfw x11
-  "xorg"
 )

@@ -11,11 +11,4 @@ PACKAGES=(
   "cppcheck"
   "clang-tidy"
   "jq"
-
-  # for glfw wayland
-  "libxkbcommon-dev"
-  "libwayland-dev"
-
-  # for glfw x11
-  "xorg-dev"
 )
