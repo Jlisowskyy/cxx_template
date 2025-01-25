@@ -2,7 +2,7 @@
 # Find all source files
 # ------------------------------
 
-file(GLOB LIB_SOURCES
+file(GLOB_RECURSE LIB_SOURCES
         "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/*.c"
 )

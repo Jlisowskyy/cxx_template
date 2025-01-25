@@ -4,7 +4,7 @@ message(STATUS "Loading test target...")
 # Load test sources
 # ------------------------------
 
-file(GLOB TEST_SOURCES
+file(GLOB_RECURSE TEST_SOURCES
         "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/*.c"
         "${CMAKE_CURRENT_SOURCE_DIR}/*.cc"
